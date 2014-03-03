@@ -1,0 +1,11 @@
+#define __TBB_VERSION_STRINGS(N) \
+#N": BUILD_HOST		RaspberryPiGruppo1 (armv6l)" ENDL \
+#N": BUILD_OS		PRETTY_NAME=Debian GNU/Linux 7.0 (wheezy)" ENDL \
+#N": BUILD_KERNEL	Linux 3.6.11+ #456 PREEMPT Mon May 20 17:42:15 BST 2013" ENDL \
+#N": BUILD_GCC		gcc version 4.6.3 (Debian 4.6.3-14+rpi1) " ENDL \
+#N": BUILD_LIBC	2.13" ENDL \
+#N": BUILD_LD		" ENDL \
+#N": BUILD_TARGET	armv6l on cc4.6_libc2.13_kernel3.6.11+" ENDL \
+#N": BUILD_COMMAND	g++ -g -O2 -DUSE_PTHREAD -fPIC -D__TBB_BUILD=1 -Wall -Wno-parentheses -Wno-non-virtual-dtor -I../../src -I../../src/rml/include -I../../include" ENDL \
+
+#define __TBB_DATETIME "Fri May 31 14:28:56 UTC 2013"

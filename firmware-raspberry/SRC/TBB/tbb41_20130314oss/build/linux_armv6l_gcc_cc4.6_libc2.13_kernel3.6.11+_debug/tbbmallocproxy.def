@@ -1,0 +1,37 @@
+# 1 "../../src/tbbmalloc/lin32-proxy-export.def"
+# 1 "/home/PoliToGruppo1/Raspberry_Gruppo_1/SRC/TBB/tbb41_20130314oss/build/linux_armv6l_gcc_cc4.6_libc2.13_kernel3.6.11+_debug//"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 1 "../../src/tbbmalloc/lin32-proxy-export.def"
+# 29 "../../src/tbbmalloc/lin32-proxy-export.def"
+{
+global:
+calloc;
+free;
+malloc;
+realloc;
+posix_memalign;
+memalign;
+valloc;
+pvalloc;
+mallinfo;
+mallopt;
+__TBB_malloc_proxy;
+__TBB_internal_find_original_malloc;
+_ZdaPv;
+_ZdaPvRKSt9nothrow_t;
+_ZdlPv;
+_ZdlPvRKSt9nothrow_t;
+_Znaj;
+_ZnajRKSt9nothrow_t;
+_Znwj;
+_ZnwjRKSt9nothrow_t;
+
+local:
+
+
+*3rml8internal*;
+*3tbb*;
+*__TBB*;
+
+};

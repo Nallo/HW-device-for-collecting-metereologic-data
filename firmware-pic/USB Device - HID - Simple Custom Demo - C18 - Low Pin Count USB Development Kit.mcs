@@ -1,0 +1,97 @@
+[Header]
+MagicCookie={0b13fe8c-dfe0-40eb-8900-6712719559a7}
+Version=1.0
+[File000]
+Location=F:\Nosfe\Documenti\Dropbox\Politecnico Torino\Laurea Magistrale\2012.2013\Programmazione di Sistema\Progetto\Generic HID - Firmware\Objects\USB Device - HID - Simple Custom Demo - Low Pin Count USB Development Kit\usb_descriptors.o
+Folder=Intermediary
+DeviceName=PIC18F14K50
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\MCC18\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)|.\Objects\USB Device - HID - Simple Custom Demo - Low Pin Count USB Development Kit||$(AINDIR)||$(INCDIR)|..\..\Microchip\Include;.;C:\MCC18\h||$(LIBDIR)|C:\mcc18\lib||$(LKRDIR)||
+SOLK=<src>|usb_descriptors.c|main.c|..\..\Microchip\USB\HID Device Driver\usb_function_hid.c|..\..\Microchip\USB\usb_device.c||<obj>||<lib>||<lkr>|rm18f14k50.lkr||
+SuiteArgsString=
+ToolArgsString=-Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+TraceCmdString=
+DebugOptions=
+[File001]
+Location=F:\Nosfe\Documenti\Dropbox\Politecnico Torino\Laurea Magistrale\2012.2013\Programmazione di Sistema\Progetto\Generic HID - Firmware\Objects\USB Device - HID - Simple Custom Demo - Low Pin Count USB Development Kit\main.o
+Folder=Intermediary
+DeviceName=PIC18F14K50
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\MCC18\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)|.\Objects\USB Device - HID - Simple Custom Demo - Low Pin Count USB Development Kit||$(AINDIR)||$(INCDIR)|..\..\Microchip\Include;.;C:\MCC18\h||$(LIBDIR)|C:\mcc18\lib||$(LKRDIR)||
+SOLK=<src>|usb_descriptors.c|main.c|..\..\Microchip\USB\HID Device Driver\usb_function_hid.c|..\..\Microchip\USB\usb_device.c||<obj>||<lib>||<lkr>|rm18f14k50.lkr||
+SuiteArgsString=
+ToolArgsString=-Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+TraceCmdString=
+DebugOptions=
+[File002]
+Location=F:\Nosfe\Documenti\Dropbox\Politecnico Torino\Laurea Magistrale\2012.2013\Programmazione di Sistema\Progetto\Generic HID - Firmware\Objects\USB Device - HID - Simple Custom Demo - Low Pin Count USB Development Kit\usb_function_hid.o
+Folder=Intermediary
+DeviceName=PIC18F14K50
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\MCC18\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)|.\Objects\USB Device - HID - Simple Custom Demo - Low Pin Count USB Development Kit||$(AINDIR)||$(INCDIR)|..\..\Microchip\Include;.;C:\MCC18\h||$(LIBDIR)|C:\mcc18\lib||$(LKRDIR)||
+SOLK=<src>|usb_descriptors.c|main.c|..\..\Microchip\USB\HID Device Driver\usb_function_hid.c|..\..\Microchip\USB\usb_device.c||<obj>||<lib>||<lkr>|rm18f14k50.lkr||
+SuiteArgsString=
+ToolArgsString=-Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+TraceCmdString=
+DebugOptions=
+[File003]
+Location=F:\Nosfe\Documenti\Dropbox\Politecnico Torino\Laurea Magistrale\2012.2013\Programmazione di Sistema\Progetto\Generic HID - Firmware\Objects\USB Device - HID - Simple Custom Demo - Low Pin Count USB Development Kit\usb_device.o
+Folder=Intermediary
+DeviceName=PIC18F14K50
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\MCC18\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)|.\Objects\USB Device - HID - Simple Custom Demo - Low Pin Count USB Development Kit||$(AINDIR)||$(INCDIR)|..\..\Microchip\Include;.;C:\MCC18\h||$(LIBDIR)|C:\mcc18\lib||$(LKRDIR)||
+SOLK=<src>|usb_descriptors.c|main.c|..\..\Microchip\USB\HID Device Driver\usb_function_hid.c|..\..\Microchip\USB\usb_device.c||<obj>||<lib>||<lkr>|rm18f14k50.lkr||
+SuiteArgsString=
+ToolArgsString=-Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+TraceCmdString=
+DebugOptions=
+[File004]
+Location=F:\Nosfe\Documenti\Dropbox\Politecnico Torino\Laurea Magistrale\2012.2013\Programmazione di Sistema\Progetto\Generic HID - Firmware\USB Device - HID - Simple Custom Demo - C18 - Low Pin Count USB Development Kit.cof
+Folder=Output
+DeviceName=PIC18F14K50
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={96C98149-AA1B-4CF9-B967-FAE79CAB663C}
+LanguageToolLocation=C:\MCC18\bin\mplink.exe
+PPAD=$(BINDIR)||$(TMPDIR)|.\Objects\USB Device - HID - Simple Custom Demo - Low Pin Count USB Development Kit||$(AINDIR)||$(INCDIR)|..\..\Microchip\Include;.;C:\MCC18\h||$(LIBDIR)|C:\mcc18\lib||$(LKRDIR)||
+SOLK=<src>|usb_descriptors.c|main.c|..\..\Microchip\USB\HID Device Driver\usb_function_hid.c|..\..\Microchip\USB\usb_device.c||<obj>||<lib>||<lkr>|rm18f14k50.lkr||
+SuiteArgsString=
+ToolArgsString=/m"$(BINDIR_)$(TARGETBASE).map" /w /o"$(TARGETBASE).cof"
+TraceCmdString=
+DebugOptions=
+[File005]
+Location=F:\Nosfe\Documenti\Dropbox\Politecnico Torino\Laurea Magistrale\2012.2013\Programmazione di Sistema\Progetto\Generic HID - Firmware\USB Device - HID - Simple Custom Demo - C18 - Low Pin Count USB Development Kit.hex
+Folder=Output
+DeviceName=PIC18F14K50
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={96C98149-AA1B-4CF9-B967-FAE79CAB663C}
+LanguageToolLocation=C:\MCC18\bin\mplink.exe
+PPAD=$(BINDIR)||$(TMPDIR)|.\Objects\USB Device - HID - Simple Custom Demo - Low Pin Count USB Development Kit||$(AINDIR)||$(INCDIR)|..\..\Microchip\Include;.;C:\MCC18\h||$(LIBDIR)|C:\mcc18\lib||$(LKRDIR)||
+SOLK=<src>|usb_descriptors.c|main.c|..\..\Microchip\USB\HID Device Driver\usb_function_hid.c|..\..\Microchip\USB\usb_device.c||<obj>||<lib>||<lkr>|rm18f14k50.lkr||
+SuiteArgsString=
+ToolArgsString=/m"$(BINDIR_)$(TARGETBASE).map" /w /o"$(TARGETBASE).cof"
+TraceCmdString=
+DebugOptions=
+[File006]
+Location=F:\Nosfe\Documenti\Dropbox\Politecnico Torino\Laurea Magistrale\2012.2013\Programmazione di Sistema\Progetto\Generic HID - Firmware\USB Device - HID - Simple Custom Demo - C18 - Low Pin Count USB Development Kit.map
+Folder=Output
+DeviceName=PIC18F14K50
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={96C98149-AA1B-4CF9-B967-FAE79CAB663C}
+LanguageToolLocation=C:\MCC18\bin\mplink.exe
+PPAD=$(BINDIR)||$(TMPDIR)|.\Objects\USB Device - HID - Simple Custom Demo - Low Pin Count USB Development Kit||$(AINDIR)||$(INCDIR)|..\..\Microchip\Include;.;C:\MCC18\h||$(LIBDIR)|C:\mcc18\lib||$(LKRDIR)||
+SOLK=<src>|usb_descriptors.c|main.c|..\..\Microchip\USB\HID Device Driver\usb_function_hid.c|..\..\Microchip\USB\usb_device.c||<obj>||<lib>||<lkr>|rm18f14k50.lkr||
+SuiteArgsString=
+ToolArgsString=/m"$(BINDIR_)$(TARGETBASE).map" /w /o"$(TARGETBASE).cof"
+TraceCmdString=
+DebugOptions=
+[TOOL_LOC_STAMPS]
+tool_loc{96C98149-AA1B-4CF9-B967-FAE79CAB663C}=C:\MCC18\bin\mplink.exe
+tool_loc{E56A1C86-9D32-4DF6-8C34-FE0388B1B644}=C:\MCC18\bin\mcc18.exe

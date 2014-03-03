@@ -1,0 +1,48 @@
+# Questo Makefile presuppone la sua presenza ed esecuzione dalla cartella hidapi-0.7.0/linux
+# N.B. eventuali @ davanti ad un comando, indicano di non generare messaggi sul terminale che esegue il comando
+
+
+# Nome della libreria da generare
+LIB_OUT_NAME = libhidapi.a
+
+# Path dove generare la libreria
+LIBDIR       = ../../../LIB
+# Path dove generare i file oggetto C
+COBJDIR      = ../../../OBJ/hidapi
+
+# Flags per il compilatore C
+CFLAGS   = -Wall
+# Compilatore C da usare
+CC       = gcc
+
+# Librerie da cui si dipende
+LIBS      = `pkg-config libusb-1.0 libudev --libs`
+# Includes da cui si dipende
+INCLUDES ?= -I../hidapi `pkg-config libusb-1.0 --cflags`
+
+# Lista di oggetti da linkare
+OBJ = $(COBJDIR)/hid-libusb.o
+
+all: mkobjc mklib $(COBJDIR) $(LIB_OUT_NAME)
+
+# Crea la cartella degli obj c, senza generare warning se esiste gia'
+mkobjc:
+	@mkdir -p $(COBJDIR)
+
+# Crea la cartella lib, senza generare warning se esiste gia'
+mklib:
+	@mkdir -p $(LIBDIR)
+
+# Per ogni file .c, esegue una compilazione nel path della regola (-o $@). $< indica il primo prerequisito, che e' appunto il file .c
+$(COBJDIR)/%.o: %.c
+	$(CC) $(CFLAGS) -c $(INCLUDES) $< -o $@
+
+# Per ogni file .o, esegue il link in una libreria statica .a. Prima di farlo, elimina l'eventuale libreria preesistente
+$(LIB_OUT_NAME): $(OBJ)
+	@rm -f $(LIBDIR)/$@
+	ar cq $(LIBDIR)/$@ $(OBJ) -o $(LIBDIR)/$@
+
+# Clean, con rimozione dei file oggetto e della libreria finale
+clean:
+	@rm -rf $(COBJDIR)
+	@rm -rf $(LIBDIR)/$(LIB_OUT_NAME)
